@@ -1,4 +1,3 @@
-#![crate_name = "users"]
 #![crate_type = "rlib"]
 #![crate_type = "dylib"]
 
