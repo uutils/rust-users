@@ -1,5 +1,5 @@
 [package]
-name = "users"
+name = "rust-users"
 description = "Library for getting information on Unix users and groups"
 
 authors = [ "ogham@bsago.me" ]
