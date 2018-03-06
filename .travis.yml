@@ -1,3 +1,7 @@
 language: rust
-rust: nightly
-
+matrix:
+  include:
+    - rust: nightly
+      os: linux
+    - rust: nightly
+      os: osx

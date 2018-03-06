@@ -1,5 +1,5 @@
-extern crate users;
-use users::{User, AllUsers};
+extern crate rust_users;
+use rust_users::{User, AllUsers};
 
 fn main() {
     let mut users: Vec<User> = unsafe { AllUsers::new() }.collect();

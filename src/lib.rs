@@ -32,7 +32,7 @@
 //! Here is a complete example that prints out the current user’s name:
 //!
 //! ```rust
-//! use users::{get_user_by_uid, get_current_uid};
+//! use rust_users::{get_user_by_uid, get_current_uid};
 //! let user = get_user_by_uid(get_current_uid()).unwrap();
 //! println!("Hello, {}!", user.name());
 //! ```
@@ -63,7 +63,7 @@
 //! methods on it. For example:
 //!
 //! ```rust
-//! use users::{Users, Groups, UsersCache};
+//! use rust_users::{Users, Groups, UsersCache};
 //! let mut cache = UsersCache::new();
 //! let uid = cache.get_current_uid();
 //! let user = cache.get_user_by_uid(uid).unwrap();
@@ -87,7 +87,7 @@
 //! And again, a complete example:
 //!
 //! ```no_run
-//! use users::{Users, Groups, UsersCache};
+//! use rust_users::{Users, Groups, UsersCache};
 //! let mut cache = UsersCache::new();
 //! let group = cache.get_group_by_name("admin").expect("No such group 'admin'!");
 //! println!("The '{}' group has the ID {}", group.name(), group.gid());

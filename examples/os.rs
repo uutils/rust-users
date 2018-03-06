@@ -1,6 +1,6 @@
-extern crate users;
-use users::{Users, Groups, UsersCache};
-use users::os::unix::{UserExt, GroupExt};
+extern crate rust_users;
+use rust_users::{Users, Groups, UsersCache};
+use rust_users::os::unix::{UserExt, GroupExt};
 //use users::os::bsd::UserExt as BSDUserExt;
 
 fn main() {
