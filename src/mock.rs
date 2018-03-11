@@ -17,8 +17,8 @@
 //! `add_user` and `add_group` to the object:
 //!
 //! ```rust
-//! use users::mock::{MockUsers, User, Group};
-//! use users::os::unix::{UserExt, GroupExt};
+//! use rust_users::mock::{MockUsers, User, Group};
+//! use rust_users::os::unix::{UserExt, GroupExt};
 //! use std::sync::Arc;
 //!
 //! let mut users = MockUsers::with_current_uid(1000);
@@ -39,9 +39,9 @@
 //! Here's a complete example:
 //!
 //! ```rust
-//! use users::{Users, UsersCache, User};
-//! use users::os::unix::UserExt;
-//! use users::mock::MockUsers;
+//! use rust_users::{Users, UsersCache, User};
+//! use rust_users::os::unix::UserExt;
+//! use rust_users::mock::MockUsers;
 //! use std::sync::Arc;
 //!
 //! fn print_current_username<U: Users>(users: &mut U) {

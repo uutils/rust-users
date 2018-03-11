@@ -1,5 +1,5 @@
-extern crate users;
-use users::{Users, Groups, UsersCache};
+extern crate rust_users;
+use rust_users::{Users, Groups, UsersCache};
 
 fn main() {
 	let cache = UsersCache::new();

@@ -125,7 +125,7 @@ impl Drop for SwitchUserGuard {
 /// ### Examples
 ///
 /// ```no_run
-/// use users::switch::switch_user_group;
+/// use rust_users::switch::switch_user_group;
 ///
 /// {
 ///     let _guard = switch_user_group(1001, 1001);
